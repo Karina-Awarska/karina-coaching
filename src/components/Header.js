@@ -1,8 +1,10 @@
+import styles from "@/styles/components/header.module.css";
+
 export const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <h2>Karina Awarska</h2>
-      <p>Life & Business Coaching</p>
+      <p className={styles.subTitle}>Life & Business Coaching</p>
     </header>
   );
 };

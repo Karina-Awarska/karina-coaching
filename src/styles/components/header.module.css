@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--background);
+  color: #fff;
+  padding: 8px;
+  font-size: 24px;
+}
+
+.subTitle {
+  padding: 0 16px;
+  font-size: 20px;
+}
