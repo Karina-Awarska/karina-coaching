@@ -45,7 +45,7 @@
   justify-content: center;
   width: 100%;
   margin: 8px 0;
-  background: var(--background);
+  background: var(--background-blue);
 }
 
 .quoteSection h2 {
@@ -76,8 +76,6 @@
 .programsSection {
   display: flex;
   width: 100%;
-  background: var(--background);
-  color: #fff;
 }
 
 .programsSectionContent {
@@ -104,4 +102,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.aboutMeSection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 8px;
+}
+
+.aboutMeSectionText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.certificatesSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  width: 100%;
+}
+
+.certificateURLWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.certificateURL {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
 }

@@ -31,7 +31,7 @@ export default function Home() {
       {/** quoteSection */}
       <section className={styles.workWithCoachSection}>
         <Image
-          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
+          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823831/WR1_4051b_1_-2_soonv0.jpg"
           alt="Karina Awarska photo"
           className={styles.photoURL}
           priority
@@ -124,6 +124,76 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/** aboutMeSection */}
+      <section className={styles.aboutMeSection}>
+        <div className={styles.aboutMeSectionText}>
+          <h3>O mnie</h3>
+          <p>
+            Nazywam się Karina Awarska i wspieram kobiety w odkrywaniu ich
+            wewnętrznej mocy oraz w świadomym kształtowaniu swojego życia.
+            Ukończyłam psychologię pozytywną na SWPS, a także szkolenia z
+            coachingu i coachingu kariery pod okiem Eli Krokosz. Dodatkowo
+            zdobyłam certyfikację w Neurolingwistycznym Programowaniu, gdzie
+            uczyłam się wpływu języka na nasze życie i wyłaniania naszych
+            osobistych strategii. Pozwala mi głębiej wspierać Cię w rozwoju
+            osobistym. Będziesz mogła świadomie tworzyć życie, o jakim marzysz –
+            zarówno w sferze osobistej, jak i zawodowej.
+          </p>
+        </div>
+        <Image
+          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
+          alt="Karina Awarska photo"
+          className={styles.photoURL}
+          priority
+          width={300}
+          height={300}
+        />
+      </section>
+
+      {/** certificatesSection */}
+      <section className={styles.certificatesSection}>
+        <div className={styles.certificateURLWrapper}>
+          <Image
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.35_1_eopado.jpg"
+            alt="Karina Awarska photo"
+            className={styles.certificateURL}
+            priority
+            width={300}
+            height={300}
+          />
+        </div>
+        <div className={styles.certificateURLWrapper}>
+          <Image
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
+            alt="Karina Awarska photo"
+            className={styles.certificateURL}
+            priority
+            width={300}
+            height={300}
+          />
+        </div>
+        <div className={styles.certificateURLWrapper}>
+          <Image
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
+            alt="Karina Awarska photo"
+            className={styles.certificateURL}
+            priority
+            width={300}
+            height={300}
+          />
+        </div>
+        <div className={styles.certificateURLWrapper}>
+          <Image
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
+            alt="Karina Awarska photo"
+            className={styles.certificateURL}
+            priority
+            width={300}
+            height={300}
+          />
         </div>
       </section>
     </div>
