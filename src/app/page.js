@@ -31,11 +31,14 @@ export default function Home() {
       {/** quoteSection */}
       <section className={styles.workWithCoachSection}>
         <Image
-          src={Karina}
+          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
           alt="Karina Awarska photo"
-          className={styles.photo}
-          placeholder="blur"
+          className={styles.photoURL}
+          priority
+          width={300}
+          height={300}
         />
+
         <div className={styles.workWithCoachText}>
           <p>Dlaczego warto pracować z coachem?</p>
           <ul>
@@ -65,6 +68,62 @@ export default function Home() {
               odpowiedzialność za realizację swoich planów.
             </li>
           </ul>
+        </div>
+      </section>
+
+      {/** programsSection */}
+      <section className={styles.programsSection}>
+        <div className={styles.programsSectionContent}>
+          <h3>Programy</h3>
+          <div className={styles.programs}>
+            <div className={styles.program}>
+              <h4>Program transformacji zawodowej CSR by Ela Krokosz</h4>
+              <div className={styles.programContent}>
+                <p>
+                  Jeśli czujesz, że utknęłaś w pracy, która nie daje Ci
+                  satysfakcji, albo nie wiesz, co chcesz robić w życiu – ten
+                  program jest właśnie dla Ciebie. Zyskaj klarowność i pewność w
+                  działaniu, budując ścieżkę zawodową w zgodzie z Twoimi
+                  wartościami i talentami.
+                </p>
+
+                <ul>
+                  <p>W trakcie programu:</p>
+                  <li>
+                    Zyskasz nowe spojrzenie na swoją karierę, analizując
+                    dotychczasowe doświadczenia z szerszej perspektywy.
+                  </li>
+                  <li>
+                    Odkryjesz swoje mocne strony i talenty, które pomogą Ci
+                    świadomie zaplanować przyszłość zawodową.
+                  </li>
+                  <li>
+                    Pozbędziesz się ograniczających przekonań, które blokują
+                    Twój rozwój, i skupisz się na tym, na co masz realny wpływ.
+                  </li>
+                  <li>
+                    Znajdziesz odpowiedzi na pytania, co tak naprawdę chcesz
+                    robić, i zyskasz wewnętrzną pewność co do swoich wyborów.
+                  </li>
+                  <li>
+                    Wzmocnisz poczucie sprawczości, dzięki czemu z odwagą
+                    podejmiesz działania i zmiany w swojej karierze.
+                  </li>
+                  <li>
+                    Świadomie zbudujesz swoją nową ścieżkę zawodową, krok po
+                    kroku, w pełni kontrolując proces zmian.
+                  </li>
+                </ul>
+
+                <p>
+                  Program transformacji zawodowej CSR to proces na odnalezienie
+                  poczucia sensu w pracy i stworzenie kariery, która daje Ci
+                  radość i spełnienie. Zainwestuj w siebie, by poczuć moc,
+                  pewność i sprawczość w każdym działaniu.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

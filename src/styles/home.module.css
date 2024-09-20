@@ -27,7 +27,14 @@
 }
 
 .photo {
-  max-width: 300px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.photoURL {
+  max-width: 400px;
   width: 100%;
   height: auto;
   border-radius: 16px;
@@ -64,4 +71,37 @@
 
 .workWithCoachText li {
   margin: 8px 0;
+}
+
+.programsSection {
+  display: flex;
+  width: 100%;
+  background: var(--background);
+  color: #fff;
+}
+
+.programsSectionContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px;
+}
+
+.programs {
+  display: flex;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.programContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
