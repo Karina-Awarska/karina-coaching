@@ -3,5 +3,5 @@
 }
 
 .path {
-  fill: #fff;
+  fill: var(--marian-blue);
 }

@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: var(--blue);
-  color: #fff;
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
+  color: var(--marian-blue);
+  border-top: 2px solid var(--marian-blue);
 }
 
 .footer h2 {
@@ -26,7 +24,7 @@
 .mediaLink {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: var(--marian-blue);
   padding: 5px;
   text-decoration: none;
 }
