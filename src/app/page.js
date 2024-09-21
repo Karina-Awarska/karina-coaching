@@ -9,10 +9,12 @@ export default function Home() {
       <section className={styles.welcomeSection}>
         <div className={styles.welcomeSectionContent}>
           <div className={styles.welcomeSectionText}>
-            <h3>Zmiana zaczyna się od Ciebie.</h3>
+            <h3>
+              Zmiana zaczyna się <span>od Ciebie</span>
+            </h3>
             <p>
               Jestem tu aby wspierać Cię w życiowych i zawodowych
-              transformacjach.
+              transformacjach
             </p>
           </div>
           <Image
@@ -27,7 +29,7 @@ export default function Home() {
       <section className={styles.quoteSection}>
         <h2>
           Masz w sobie wszystko, czego potrzebujesz, aby stworzyć życie którego
-          pragniesz.
+          pragniesz
         </h2>
       </section>
 
@@ -46,29 +48,30 @@ export default function Home() {
           <p>Dlaczego warto pracować z coachem?</p>
           <ul>
             <li>
-              Gdy czujesz, że utknęłaś w miejscu, nie masz pomysłu co dalej i od
-              czego zacząć.
+              Gdy czujesz, że <span>utknęłaś w miejscu,</span> nie masz pomysłu
+              co dalej i od czego zacząć.
             </li>
             <li>
-              Przyjrzymy się ograniczającym przekonaniom, co Cię powstrzymuje
-              przed życiem jakiego pragniesz.
+              Przyjrzymy się <span>ograniczającym przekonaniom,</span> co Cię
+              powstrzymuje przed życiem jakiego pragniesz.
             </li>
             <li>
-              Odkryjesz swoje talenty i mocne strony, które mogą być kluczem do
-              realizacji Twoich marzeń i planów.
+              Odkryjesz <span>swoje talenty i mocne strony,</span> które mogą
+              być kluczem do realizacji Twoich marzeń i planów.
             </li>
             <li>
-              Stwórzmy jasną wizję przyszłości: Jeśli brakuje Ci klarownej wizji
-              tego, co chcesz robić.
+              Stwórzmy <span>jasną wizję przyszłości:</span> jeśli brakuje Ci
+              klarownej wizji tego, co chcesz robić.
             </li>
             <li>
-              Wspólnie i skutecznie przejdziemy przez proces transformacji,
+              Wspólnie i skutecznie przejdziemy przez{" "}
+              <span>proces transformacji, </span>
               które ułatwią Ci ten proces.
             </li>
             <li>
-              Zyskasz większą motywację i odpowiedzialność: Regularne sesje
-              coachingowe będą motorem do działania i pomogą Ci zachować
-              odpowiedzialność za realizację swoich planów.
+              <span>Zyskasz większą motywację i odpowiedzialność: </span>{" "}
+              regularne sesje coachingowe będą motorem do działania i pomogą Ci
+              zachować odpowiedzialność za realizację swoich planów.
             </li>
           </ul>
         </div>
@@ -90,8 +93,8 @@ export default function Home() {
                   wartościami i talentami.
                 </p>
 
-                <ul className={styles.ul}>
-                  <p>W trakcie programu:</p>
+                <p className={styles.programUlTitle}>W trakcie programu</p>
+                <ul className={styles.programUl}>
                   <li>
                     Zyskasz nowe spojrzenie na swoją karierę, analizując
                     dotychczasowe doświadczenia z szerszej perspektywy.

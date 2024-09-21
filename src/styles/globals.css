@@ -2,7 +2,12 @@
 
 :root {
   --blue: #5594cb;
+  --blue-secondary: #0b7add;
   --radius: 16px;
+  --marian-blue: #003f91;
+  --argen-blue: #5da9e9;
+  --honeydrew: #e5f4e3;
+  --dark: #272838;
 }
 
 * {
