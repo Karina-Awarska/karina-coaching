@@ -238,8 +238,8 @@
 }
 
 .certificateURL {
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
-  height: auto;
+  /* height: auto; */
   border-radius: 16px;
 }

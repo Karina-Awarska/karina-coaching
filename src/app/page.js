@@ -173,7 +173,7 @@ export default function Home() {
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940161/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940193/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
@@ -193,7 +193,7 @@ export default function Home() {
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940237/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
