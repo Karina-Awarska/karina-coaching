@@ -7,18 +7,21 @@ export default function Home() {
     <div className={styles.home}>
       {/** welcomeSection */}
       <section className={styles.welcomeSection}>
-        <div className={styles.welcomeSectionText}>
-          <h3>Zmiana zaczyna się od Ciebie.</h3>
-          <p>
-            Jestem tu aby wspierać Cię w życiowych i zawodowych transformacjach.
-          </p>
+        <div className={styles.welcomeSectionContent}>
+          <div className={styles.welcomeSectionText}>
+            <h3>Zmiana zaczyna się od Ciebie.</h3>
+            <p>
+              Jestem tu aby wspierać Cię w życiowych i zawodowych
+              transformacjach.
+            </p>
+          </div>
+          <Image
+            src={Karina}
+            alt="Karina Awarska photo"
+            className={styles.photo}
+            placeholder="blur"
+          />
         </div>
-        <Image
-          src={Karina}
-          alt="Karina Awarska photo"
-          className={styles.photo}
-          placeholder="blur"
-        />
       </section>
       {/** quoteSection */}
       <section className={styles.quoteSection}>
@@ -28,7 +31,7 @@ export default function Home() {
         </h2>
       </section>
 
-      {/** quoteSection */}
+      {/** workWithCoachSection */}
       <section className={styles.workWithCoachSection}>
         <Image
           src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823831/WR1_4051b_1_-2_soonv0.jpg"
@@ -87,7 +90,7 @@ export default function Home() {
                   wartościami i talentami.
                 </p>
 
-                <ul>
+                <ul className={styles.ul}>
                   <p>W trakcie programu:</p>
                   <li>
                     Zyskasz nowe spojrzenie na swoją karierę, analizując
