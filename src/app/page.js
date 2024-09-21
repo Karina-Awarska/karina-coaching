@@ -33,50 +33,6 @@ export default function Home() {
         </h2>
       </section>
 
-      {/** workWithCoachSection */}
-      <section className={styles.workWithCoachSection}>
-        <Image
-          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823831/WR1_4051b_1_-2_soonv0.jpg"
-          alt="Karina Awarska photo"
-          className={styles.photoURL}
-          priority
-          width={300}
-          height={300}
-        />
-
-        <div className={styles.workWithCoachText}>
-          <p>Dlaczego warto pracować z coachem?</p>
-          <ul>
-            <li>
-              Gdy czujesz, że <span>utknęłaś w miejscu,</span> nie masz pomysłu
-              co dalej i od czego zacząć.
-            </li>
-            <li>
-              Przyjrzymy się <span>ograniczającym przekonaniom,</span> co Cię
-              powstrzymuje przed życiem jakiego pragniesz.
-            </li>
-            <li>
-              Odkryjesz <span>swoje talenty i mocne strony,</span> które mogą
-              być kluczem do realizacji Twoich marzeń i planów.
-            </li>
-            <li>
-              Stwórzmy <span>jasną wizję przyszłości:</span> jeśli brakuje Ci
-              klarownej wizji tego, co chcesz robić.
-            </li>
-            <li>
-              Wspólnie i skutecznie przejdziemy przez{" "}
-              <span>proces transformacji, </span>
-              które ułatwią Ci ten proces.
-            </li>
-            <li>
-              <span>Zyskasz większą motywację i odpowiedzialność: </span>{" "}
-              regularne sesje coachingowe będą motorem do działania i pomogą Ci
-              zachować odpowiedzialność za realizację swoich planów.
-            </li>
-          </ul>
-        </div>
-      </section>
-
       {/** programsSection */}
       <section className={styles.programsSection}>
         <div className={styles.programsSectionContent}>
@@ -133,6 +89,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/** workWithCoachSection */}
+      <section className={styles.workWithCoachSection}>
+        <Image
+          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823831/WR1_4051b_1_-2_soonv0.jpg"
+          alt="Karina Awarska photo"
+          className={styles.photoURL}
+          priority
+          width={300}
+          height={300}
+        />
+
+        <div className={styles.workWithCoachText}>
+          <p>Dlaczego warto pracować z coachem?</p>
+          <ul>
+            <li>
+              Gdy czujesz, że <span>utknęłaś w miejscu,</span> nie masz pomysłu
+              co dalej i od czego zacząć.
+            </li>
+            <li>
+              Przyjrzymy się <span>ograniczającym przekonaniom,</span> co Cię
+              powstrzymuje przed życiem jakiego pragniesz.
+            </li>
+            <li>
+              Odkryjesz <span>swoje talenty i mocne strony,</span> które mogą
+              być kluczem do realizacji Twoich marzeń i planów.
+            </li>
+            <li>
+              Stwórzmy <span>jasną wizję przyszłości:</span> jeśli brakuje Ci
+              klarownej wizji tego, co chcesz robić.
+            </li>
+            <li>
+              Wspólnie i skutecznie przejdziemy przez{" "}
+              <span>proces transformacji, </span>
+              które ułatwią Ci ten proces.
+            </li>
+            <li>
+              <span>Zyskasz większą motywację i odpowiedzialność: </span>{" "}
+              regularne sesje coachingowe będą motorem do działania i pomogą Ci
+              zachować odpowiedzialność za realizację swoich planów.
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/** aboutMeSection */}
       <section className={styles.aboutMeSection}>
         <div className={styles.aboutMeSectionText}>
@@ -167,38 +167,38 @@ export default function Home() {
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
-            width={300}
-            height={300}
+            fill
+            objectFit="contain"
           />
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940161/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
-            width={300}
-            height={300}
+            fill
+            objectFit="contain"
           />
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940193/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
-            width={300}
-            height={300}
+            fill
+            objectFit="contain"
           />
         </div>
         <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940237/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
             alt="Karina Awarska photo"
             className={styles.certificateURL}
             priority
-            width={300}
-            height={300}
+            fill
+            objectFit="contain"
           />
         </div>
       </section>
