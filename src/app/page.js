@@ -1,6 +1,7 @@
 import styles from "@/styles/home.module.css";
 import Image from "next/image";
 import Karina from "@/assets/Karina.jpg";
+import { Certificates } from "@/components/Certificates";
 
 export default function Home() {
   return (
@@ -159,49 +160,8 @@ export default function Home() {
         />
       </section>
 
-      {/** certificatesSection */}
-      <section className={styles.certificatesSection}>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.35_1_eopado.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940161/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940193/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940237/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-      </section>
+      <h3>Certyficaty</h3>
+      <Certificates />
     </div>
   );
 }
