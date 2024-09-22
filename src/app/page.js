@@ -1,6 +1,15 @@
 import styles from "@/styles/home.module.css";
 import Image from "next/image";
 import Karina from "@/assets/Karina.jpg";
+import { Certificates } from "@/components/Certificates";
+import {
+  EyeIcon,
+  QueryStatus,
+  LockOpen,
+  PsychologyAlt,
+  SelfImprovement,
+  StairsIcon,
+} from "@/assets/Icons";
 
 export default function Home() {
   return (
@@ -52,26 +61,44 @@ export default function Home() {
                 <p className={styles.programUlTitle}>W trakcie programu</p>
                 <ul className={styles.programUl}>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <EyeIcon width={40} height={40} />
+                    </div>
                     Zyskasz nowe spojrzenie na swoją karierę, analizując
                     dotychczasowe doświadczenia z szerszej perspektywy.
                   </li>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <QueryStatus width={40} height={40} />
+                    </div>
                     Odkryjesz swoje mocne strony i talenty, które pomogą Ci
                     świadomie zaplanować przyszłość zawodową.
                   </li>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <LockOpen width={40} height={40} />
+                    </div>
                     Pozbędziesz się ograniczających przekonań, które blokują
                     Twój rozwój, i skupisz się na tym, na co masz realny wpływ.
                   </li>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <PsychologyAlt width={40} height={40} />
+                    </div>
                     Znajdziesz odpowiedzi na pytania, co tak naprawdę chcesz
                     robić, i zyskasz wewnętrzną pewność co do swoich wyborów.
                   </li>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <SelfImprovement width={40} height={40} />
+                    </div>
                     Wzmocnisz poczucie sprawczości, dzięki czemu z odwagą
                     podejmiesz działania i zmiany w swojej karierze.
                   </li>
                   <li>
+                    <div className={styles.iconWrapper}>
+                      <StairsIcon width={40} height={40} />
+                    </div>
                     Świadomie zbudujesz swoją nową ścieżkę zawodową, krok po
                     kroku, w pełni kontrolując proces zmian.
                   </li>
@@ -135,8 +162,8 @@ export default function Home() {
 
       {/** aboutMeSection */}
       <section className={styles.aboutMeSection}>
+        <h3>O mnie</h3>
         <div className={styles.aboutMeSectionText}>
-          <h3>O mnie</h3>
           <p>
             Nazywam się Karina Awarska i wspieram kobiety w odkrywaniu ich
             wewnętrznej mocy oraz w świadomym kształtowaniu swojego życia.
@@ -148,60 +175,17 @@ export default function Home() {
             osobistym. Będziesz mogła świadomie tworzyć życie, o jakim marzysz –
             zarówno w sferze osobistej, jak i zawodowej.
           </p>
-        </div>
-        <Image
-          src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
-          alt="Karina Awarska photo"
-          className={styles.photoURL}
-          priority
-          width={300}
-          height={300}
-        />
-      </section>
-
-      {/** certificatesSection */}
-      <section className={styles.certificatesSection}>
-        <div className={styles.certificateURLWrapper}>
           <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.35_1_eopado.jpg"
+            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
             alt="Karina Awarska photo"
-            className={styles.certificateURL}
+            className={styles.photoURL}
             priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940161/CamScanner_20-09-2024_12.39_1_hdkptu.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940193/CamScanner_20-09-2024_12.37_1_o6xmjr.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
-          />
-        </div>
-        <div className={styles.certificateURLWrapper}>
-          <Image
-            src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726940237/CamScanner_20-09-2024_12.33_1_rtn6lr.jpg"
-            alt="Karina Awarska photo"
-            className={styles.certificateURL}
-            priority
-            fill
-            objectFit="contain"
+            width={300}
+            height={300}
           />
         </div>
       </section>
+      <Certificates />
     </div>
   );
 }

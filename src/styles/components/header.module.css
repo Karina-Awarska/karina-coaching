@@ -1,14 +1,16 @@
 .header {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
-  /* background: var(--blue); */
   color: var(--marian-blue);
   padding: 16px;
   font-size: 24px;
-  /* border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius); */
   border-bottom: 2px solid var(--marian-blue);
+}
+
+.headerText {
+  width: 270px;
 }
 
 .subTitle {

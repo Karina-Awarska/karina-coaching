@@ -4,31 +4,5 @@
   width: 100%;
   color: var(--marian-blue);
   border-top: 2px solid var(--marian-blue);
-}
-
-.footer h2 {
-  padding: 8px;
-}
-
-.contacts {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-around;
-}
-
-.mediaLinks {
-  display: flex;
-}
-
-.mediaLink {
-  display: flex;
-  align-items: center;
-  color: var(--marian-blue);
-  padding: 5px;
-  text-decoration: none;
-}
-
-.mediaLink span {
-  padding-left: 5px;
+  padding: 16px 8px;
 }
