@@ -1,0 +1,29 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mediaLinks {
+  display: flex;
+}
+
+.mediaLink {
+  display: flex;
+  align-items: center;
+  color: var(--marian-blue);
+  margin: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.mediaLink:hover {
+  transition: 0.2s;
+  box-shadow: 0px 0px 10px 1px rgba(93, 169, 233, 1);
+}
+
+.mediaLink span {
+  padding: 5px;
+}

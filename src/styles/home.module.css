@@ -114,14 +114,13 @@
   font-size: 20px;
   list-style: none;
   background: #fff;
-  box-shadow: 0px 0px 10px 1px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 10px 1px rgba(93, 169, 233, 1);
 }
 
 .programsSection {
   display: flex;
   width: 100%;
   margin: 28px 0;
-  /* background-color: rgba(52, 150, 230, 0.2); */
   border-radius: var(--radius);
   color: var(--dark);
 }
@@ -189,6 +188,17 @@
   font-weight: 600;
 }
 
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(93, 169, 233, 0.25);
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
 .programContent li {
   margin: 8px 0;
   list-style: none;
@@ -196,25 +206,40 @@
   width: 100%;
   margin: 16px 8px;
   padding: 16px;
-  /* background: var(--argen-blue); */
   border-left: 2px solid var(--argen-blue);
 }
 
 .aboutMeSection {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
-  /* padding: 8px; */
   margin: 28px 0;
-  background: rgba(241, 153, 83, 0.3);
+}
+
+.aboutMeSection h3 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--marian-blue);
+  padding: 8px 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--marian-blue);
 }
 
 .aboutMeSectionText {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-around;
   align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+.aboutMeSectionText p {
   max-width: 600px;
   width: 100%;
+  border-left: 2px solid var(--argen-blue);
+  padding-left: 16px;
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 16px;
 }

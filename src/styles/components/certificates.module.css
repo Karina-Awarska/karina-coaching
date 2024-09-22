@@ -1,7 +1,22 @@
 .certificatesSection {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin: 28px 0 46px 0;
+}
+
+.certificatesSection h3 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--marian-blue);
+  border-bottom: 2px solid var(--marian-blue);
+  padding: 8px 0;
+}
+
+.certificatesSwiper {
+  display: flex;
+  width: 100%;
+  margin: 16px 0;
 }
 
 .certificateURL {
