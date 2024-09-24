@@ -60,9 +60,9 @@ export default function Home() {
                 <p>
                   Jeśli czujesz, że utknęłaś w pracy, która nie daje Ci
                   satysfakcji, albo nie wiesz, co chcesz robić w życiu – ten
-                  program jest właśnie dla Ciebie. Zyskaj klarowność i pewność w
-                  działaniu, budując ścieżkę zawodową w zgodzie z Twoimi
-                  wartościami i talentami.
+                  program jest właśnie dla Ciebie. <br /> Zyskaj klarowność i
+                  pewność w działaniu, budując ścieżkę zawodową w zgodzie z
+                  Twoimi wartościami i talentami.
                 </p>
 
                 <ul className={styles.programUl}>
@@ -113,8 +113,8 @@ export default function Home() {
                 <p>
                   Program transformacji zawodowej to proces na odnalezienie
                   poczucia sensu w pracy i stworzenie kariery, która daje Ci
-                  radość i spełnienie. Zainwestuj w siebie, by poczuć moc,
-                  pewność i sprawczość w każdym działaniu.
+                  radość i spełnienie. <br /> Zainwestuj w siebie, by poczuć
+                  moc, pewność i sprawczość w każdym działaniu.
                 </p>
               </div>
             </div>
