@@ -6,7 +6,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerText}>
         <h2>Karina Awarska</h2>
-        <p className={styles.subTitle}>Life & Business Coaching</p>
+        <p className={styles.subTitle}>Coach kariery i świadomego życia</p>
       </div>
       <Contacts />
     </header>
