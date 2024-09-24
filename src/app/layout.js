@@ -4,8 +4,8 @@ import { Footer } from "@/components/Footer";
 import styles from "@/styles/layout.module.css";
 
 export const metadata = {
-  title: "Kraina Awarska coaching",
-  description: "Web page for coaching and professional development",
+  title: "Kraina Awarska Coaching",
+  description: "Coaching and professional development",
 };
 
 export default function RootLayout({ children }) {

@@ -19,11 +19,13 @@ export default function Home() {
         <div className={styles.welcomeSectionContent}>
           <div className={styles.welcomeSectionText}>
             <h3>
-              Zmiana zaczyna się <span>od Ciebie</span>
+              Ważne jest dla mnie holistyczne podejście do człowieka i jego
+              zasobów. <span>Dbanie o dobrostan.</span>
             </h3>
             <p>
-              Jestem tu aby wspierać Cię w życiowych i zawodowych
-              transformacjach
+              Będę Cię inspirować do realizacji ambitnych celów. Zbudujemy razem
+              nową mapę mentalną aby z odwagą i lekkością zmienić swoje życie na
+              bardziej wartościowe.
             </p>
           </div>
           <Image
@@ -34,21 +36,24 @@ export default function Home() {
           />
         </div>
       </section>
+
       {/** quoteSection */}
       <section className={styles.quoteSection}>
         <h2>
-          Masz w sobie wszystko, czego potrzebujesz, aby stworzyć życie którego
-          pragniesz
+          Nowe początki zawsze pojawiają się w momencie, gdy decydujemy się na
+          zmianę i przestajemy trzymać się tego, co nas blokuje - Wayne Dyer
+        </h2>
+        <h2>
+          Nie możemy stać się tym, kim chcemy być, pozostając tym, kim jesteśmy…
         </h2>
       </section>
 
       {/** programsSection */}
       <section className={styles.programsSection}>
         <div className={styles.programsSectionContent}>
-          <h3>Programy</h3>
+          <h3>Program transformacji zawodowej</h3>
           <div className={styles.programs}>
             <div className={styles.program}>
-              <h4>Program transformacji zawodowej CSR by Ela Krokosz</h4>
               <div className={styles.programContent}>
                 <p>
                   Jeśli czujesz, że utknęłaś w pracy, która nie daje Ci
@@ -58,7 +63,6 @@ export default function Home() {
                   wartościami i talentami.
                 </p>
 
-                <p className={styles.programUlTitle}>W trakcie programu</p>
                 <ul className={styles.programUl}>
                   <li>
                     <div className={styles.iconWrapper}>
@@ -105,7 +109,7 @@ export default function Home() {
                 </ul>
 
                 <p>
-                  Program transformacji zawodowej CSR to proces na odnalezienie
+                  Program transformacji zawodowej to proces na odnalezienie
                   poczucia sensu w pracy i stworzenie kariery, która daje Ci
                   radość i spełnienie. Zainwestuj w siebie, by poczuć moc,
                   pewność i sprawczość w każdym działaniu.
@@ -131,30 +135,20 @@ export default function Home() {
           <p>Dlaczego warto pracować z coachem?</p>
           <ul>
             <li>
-              Gdy czujesz, że <span>utknęłaś w miejscu,</span> nie masz pomysłu
-              co dalej i od czego zacząć.
+              świadomie wyznaczysz <span>cele</span> i drogę do nich
             </li>
             <li>
-              Przyjrzymy się <span>ograniczającym przekonaniom,</span> co Cię
-              powstrzymuje przed życiem jakiego pragniesz.
+              odkryjesz na nowo swój <span>potencjał</span>
             </li>
             <li>
-              Odkryjesz <span>swoje talenty i mocne strony,</span> które mogą
-              być kluczem do realizacji Twoich marzeń i planów.
+              <span>wsparcie</span> w procesie zmian
             </li>
             <li>
-              Stwórzmy <span>jasną wizję przyszłości:</span> jeśli brakuje Ci
-              klarownej wizji tego, co chcesz robić.
+              wzmocnione poczucie <span>wartości i sprawczości</span>
             </li>
             <li>
-              Wspólnie i skutecznie przejdziemy przez{" "}
-              <span>proces transformacji, </span>
-              które ułatwią Ci ten proces.
-            </li>
-            <li>
-              <span>Zyskasz większą motywację i odpowiedzialność: </span>{" "}
-              regularne sesje coachingowe będą motorem do działania i pomogą Ci
-              zachować odpowiedzialność za realizację swoich planów.
+              większy <span>dobrostan </span> i poczucie{" "}
+              <span>życia z sensem</span>
             </li>
           </ul>
         </div>
@@ -163,18 +157,57 @@ export default function Home() {
       {/** aboutMeSection */}
       <section className={styles.aboutMeSection}>
         <h3>O mnie</h3>
-        <div className={styles.aboutMeSectionText}>
-          <p>
-            Nazywam się Karina Awarska i wspieram kobiety w odkrywaniu ich
-            wewnętrznej mocy oraz w świadomym kształtowaniu swojego życia.
-            Ukończyłam psychologię pozytywną na SWPS, a także szkolenia z
-            coachingu i coachingu kariery pod okiem Eli Krokosz. Dodatkowo
-            zdobyłam certyfikację w Neurolingwistycznym Programowaniu, gdzie
-            uczyłam się wpływu języka na nasze życie i wyłaniania naszych
-            osobistych strategii. Pozwala mi głębiej wspierać Cię w rozwoju
-            osobistym. Będziesz mogła świadomie tworzyć życie, o jakim marzysz –
-            zarówno w sferze osobistej, jak i zawodowej.
-          </p>
+        <div className={styles.aboutMeSectionContext}>
+          <div className={styles.aboutMeSectionText}>
+            <p>
+              Nazywam się Karina Awarska i wspieram osoby w odkrywaniu
+              wewnętrznego potencjału i odwagi do tworzenia życia jakiego
+              pragniesz. W swoim życiu zawodowym przeżywałam i sukcesy i
+              porażki, doświadczyłam wypalenia zawodowego ale też utknięcia i
+              niewiadomej co chce robić w życiu.
+            </p>
+            <p>Moja ścieżka świadomego rozwoju zaczęła się w 2019 roku.</p>
+            <p>Ukończyłam:</p>
+            <ul>
+              <li>
+                <span>Neurolingwistyczne Programowanie</span>, gdzie nauczyłam
+                się wpływu języka na nasze życie, wyłaniania wzorców i
+                osobistych strategii, wzmocniłam swój mental;
+              </li>
+              <li>
+                <span>Coaching w Grupie Set</span>, dał mi dobry fundament pracy
+                coachingowej, aktywnego słuchania, trafnego zadawania pytań i
+                pracy głębokiej z klientem w akceptacji i zaufaniu;
+              </li>
+              <li>
+                Studia podyplomowe z{" "}
+                <span>
+                  Psychologii pozytywnej w Szkole Wyższej Psychologii Społecznej
+                  SWPS
+                </span>
+                , pogłębiły moją wiedzę psychologiczną, poznałam badania naukowe
+                na temat dobrostanu i interwencji pozytywnych
+              </li>
+              <li>
+                <span>
+                  Coaching kariery Career Step Revolution w Talent Development
+                  Institute
+                </span>
+                , pogłębił moją pracę coachingową, dał mi skuteczną strukturę w
+                pracy z klientem przy zmianie i/lub przewartościowaniu ścieżki
+                zawodowej;
+              </li>
+              <li>
+                Warsztaty z <span>Ewą Foley</span>, moją mentorką, otworzyły
+                mnie na duchowość i holistyczne doświadczanie życia.
+              </li>
+            </ul>
+            <p>
+              A to wszystko po to abyś mógł świadomie tworzyć życie, o jakim
+              marzysz – zarówno w sferze osobistej, jak i zawodowej.
+            </p>
+          </div>
+
           <Image
             src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726823832/DSC_2633a-2_khhkyj.jpg"
             alt="Karina Awarska photo"
