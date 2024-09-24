@@ -3,6 +3,7 @@ import {
   LinkedInIcon,
   InstagramIcon,
   Mail,
+  PhoneIcon,
 } from "@/assets/Icons";
 import Link from "next/link";
 import styles from "@/styles/components/contacts.module.css";
@@ -10,15 +11,20 @@ import styles from "@/styles/components/contacts.module.css";
 export const Contacts = () => {
   return (
     <div className={styles.contacts}>
-      <div className={styles.mail}>
+      <div className={styles.mailAndPhone}>
         <Link
-          className={styles.mediaLink}
+          className={styles.mailLink}
           href="mailto:awarska.coaching@gmail.com"
         >
           <Mail width={30} height={30} />
           <span>awarska.coaching@gmail.com</span>
         </Link>
+        <div className={styles.phone}>
+          <PhoneIcon width={30} height={30} />
+          <span>601 181 974</span>
+        </div>
       </div>
+
       <div className={styles.mediaLinks}>
         {/* <Link
             className={styles.mediaLink}

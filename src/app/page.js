@@ -18,10 +18,12 @@ export default function Home() {
       <section className={styles.welcomeSection}>
         <div className={styles.welcomeSectionContent}>
           <div className={styles.welcomeSectionText}>
-            <h3>
-              Ważne jest dla mnie holistyczne podejście do człowieka i jego
-              zasobów. <span>Dbanie o dobrostan.</span>
-            </h3>
+            <p>
+              <span>Zmiana zaczyna się od Ciebie.</span> Jestem tu aby wspierać
+              Cię w życiowych i zawodowych transformacjach. Ważne jest dla mnie
+              holistyczne podejście do człowieka i jego zasobów.{" "}
+              <span>Dbanie o dobrostan.</span>
+            </p>
             <p>
               Będę Cię inspirować do realizacji ambitnych celów. Zbudujemy razem
               nową mapę mentalną aby z odwagą i lekkością zmienić swoje życie na
