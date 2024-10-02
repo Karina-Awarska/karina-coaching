@@ -1,0 +1,81 @@
+.menuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .menuIcon {
+    z-index: 2;
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 30px;
+  }
+
+  .menuIcon span,
+  .menuIcon::before,
+  .menuIcon::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.2s ease 0s;
+    background-color: var(--marian-blue);
+  }
+
+  .menuIcon::before,
+  .menuIcon::after {
+    content: "";
+  }
+
+  .menuIcon::before {
+    top: 0;
+  }
+
+  .menuIcon::after {
+    bottom: 0;
+  }
+
+  .menuIcon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+
+  .menuIconActive {
+    z-index: 2;
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 30px;
+  }
+
+  .menuIconActive span,
+  .menuIconActive::before,
+  .menuIconActive::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.2s ease 0s;
+    background-color: var(--marian-blue);
+  }
+
+  .menuIconActive::before,
+  .menuIconActive::after {
+    content: "";
+  }
+
+  .menuIconActive::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+  }
+
+  .menuIconActive::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+  }
+
+  .menuIconActive span {
+    top: 50%;
+    transform: scale(0) translate(0px, -50%);
+  }
+}
