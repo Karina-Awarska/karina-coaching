@@ -220,7 +220,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <Certificates />
+      {/* <Certificates /> */}
     </div>
   );
 }

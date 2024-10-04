@@ -1,5 +1,5 @@
 import styles from "@/styles/components/header.module.css";
-import { Contacts } from "./Contacts";
+import { Navigation } from "./Navigation";
 
 export const Header = () => {
   return (
@@ -8,7 +8,7 @@ export const Header = () => {
         <h2>Karina Awarska</h2>
         <p className={styles.subTitle}>Coach kariery i świadomego życia</p>
       </div>
-      <Contacts />
+      <Navigation />
     </header>
   );
 };
