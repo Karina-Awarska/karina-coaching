@@ -30,6 +30,45 @@ export const Certificates = () => {
           <SwiperSlide>
             <div className={styles.slide}>
               <Image
+                src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1727976740/IMG_0238_uyrr3a.jpg"
+                alt="Karina Awarska photo"
+                className={styles.certificateURLies}
+                priority
+                width={500}
+                height={500}
+              />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className={styles.slide}>
+              <Image
+                src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1727976740/IMG_0239_hjzmte.jpg"
+                alt="Karina Awarska photo"
+                className={styles.certificateURLies}
+                priority
+                width={500}
+                height={500}
+              />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className={styles.slide}>
+              <Image
+                src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1727976739/IMG_0236_buzpcd.jpg"
+                alt="Karina Awarska photo"
+                className={styles.certificateURLies}
+                priority
+                width={500}
+                height={500}
+              />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className={styles.slide}>
+              <Image
                 src="https://res.cloudinary.com/ddwrrgfyz/image/upload/v1726829945/CamScanner_20-09-2024_12.35_1_eopado.jpg"
                 alt="Karina Awarska photo"
                 className={styles.certificateURLies}

@@ -13,11 +13,9 @@ export default function RootLayout({ children }) {
     <html lang="pl-PL">
       <body>
         <div className={styles.layout}>
-          <div className={styles.content}>
-            <Header />
-            <main className={styles.main}>{children}</main>
-            <Footer />
-          </div>
+          <Header />
+          <main className={styles.main}>{children}</main>
+          <Footer />
         </div>
       </body>
     </html>
