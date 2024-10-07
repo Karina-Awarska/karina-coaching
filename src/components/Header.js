@@ -1,5 +1,6 @@
 import styles from "@/styles/components/header.module.css";
 import { Navigation } from "./Navigation";
+import { MobileNavigation } from "./MobileNavigation";
 import { LayoutComponent } from "./common/LayoutComponent";
 
 export const Header = () => {
@@ -11,6 +12,7 @@ export const Header = () => {
           <p className={styles.subTitle}>Coach kariery i świadomego życia</p>
         </div>
         <Navigation />
+        <MobileNavigation />
       </header>
     </LayoutComponent>
   );

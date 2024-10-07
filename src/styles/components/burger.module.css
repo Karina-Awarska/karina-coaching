@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 767px) {
   .menuIcon {
-    z-index: 2;
+    z-index: 3;
     display: block;
     position: relative;
     width: 40px;
@@ -41,7 +41,7 @@
   }
 
   .menuIconActive {
-    z-index: 2;
+    z-index: 3;
     display: block;
     position: relative;
     width: 40px;
