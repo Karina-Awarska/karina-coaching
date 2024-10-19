@@ -1,9 +1,13 @@
 "use client";
 
 import styles from "@/styles/components/contactForm.module.css";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { sendContactForm } from "@/utils/contactForm";
 
 export const ContactForm = () => {
+  const [loading, setLoading] = useState(false);
+
   const {
     register,
     handleSubmit,
@@ -19,9 +23,17 @@ export const ContactForm = () => {
     },
   });
 
-  const sendEmail = (data) => {
-    console.log(data);
-    reset();
+  const sendEmail = async (data) => {
+    setLoading(true);
+    try {
+      await sendContactForm(data);
+      reset();
+      setLoading(false);
+    } catch (error) {
+      reset();
+      console.log("error message", error.message);
+      setLoading(false);
+    }
   };
 
   return (
@@ -59,7 +71,7 @@ export const ContactForm = () => {
             id="message"
           />
         </label>
-        <button type="submit">Send</button>
+        <button type="submit">{loading ? "Loading..." : "Wyślij"}</button>
       </form>
     </div>
   );
